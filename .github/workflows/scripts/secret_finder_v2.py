@@ -7,8 +7,13 @@
 # https://docs.github.com/en/actions/sharing-automations/creating-actions/setting-exit-codes-for-actions
 
 
+
+if ( sys.exit(n) != 0 )
+
+
 def main():
-    
+	cat ./* | grep "pass"
+	if ( sys.exit(n) != 0 )
     print("Todavía no estoy listo!")
 
 if __name__ == "__main__":
